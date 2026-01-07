@@ -23,4 +23,3 @@ streamlit run dashboard/app.py
 
 ## Catatan
 - Model menggunakan TF-IDF + Multinomial Naive Bayes.
-- Karena dataset kecil, akurasi bisa fluktuatif. Menambah variasi kalimat pada `patterns` biasanya meningkatkan performa.
