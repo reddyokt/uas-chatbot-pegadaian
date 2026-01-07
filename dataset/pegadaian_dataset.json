@@ -1,0 +1,244 @@
+[
+  {
+    "tag": "salam",
+    "patterns": [
+      "Halo",
+      "Hai",
+      "Selamat pagi",
+      "Selamat siang",
+      "Permisi",
+      "Assalamualaikum"
+    ],
+    "responses": [
+      "Halo! Selamat datang di layanan virtual Pegadaian. Ada yang bisa saya bantu?"
+    ]
+  },
+  {
+    "tag": "jam_operasional",
+    "patterns": [
+      "Pegadaian buka jam berapa?",
+      "Jam kerja Pegadaian",
+      "Jam operasional hari ini",
+      "Pegadaian tutup jam berapa?"
+    ],
+    "responses": [
+      "Umumnya Pegadaian buka Senin–Jumat pukul 08.00–15.00 WIB. Jam dapat berbeda tiap cabang."
+    ]
+  },
+  {
+    "tag": "lokasi_cabang",
+    "patterns": [
+      "Di mana Pegadaian terdekat?",
+      "Cari lokasi Pegadaian",
+      "Alamat Pegadaian terdekat",
+      "Cabang Pegadaian dekat sini"
+    ],
+    "responses": [
+      "Anda bisa cek lokasi cabang Pegadaian terdekat melalui Google Maps atau situs/aplikasi resmi Pegadaian."
+    ]
+  },
+  {
+    "tag": "syarat_gadai",
+    "patterns": [
+      "Apa syarat gadai?",
+      "Syarat gadai di Pegadaian",
+      "Gadai perlu apa saja",
+      "Dokumen untuk gadai"
+    ],
+    "responses": [
+      "Umumnya syarat gadai: KTP asli dan barang jaminan yang sah. Untuk produk tertentu bisa ada syarat tambahan."
+    ]
+  },
+  {
+    "tag": "gadai_emas",
+    "patterns": [
+      "Bisa gadai emas?",
+      "Cara gadai emas",
+      "Gadai emas bagaimana",
+      "Emas batangan bisa digadaikan?"
+    ],
+    "responses": [
+      "Bisa. Bawa KTP dan emas (perhiasan/batangan) ke cabang Pegadaian untuk ditaksir dan dibuatkan transaksi gadai."
+    ]
+  },
+  {
+    "tag": "gadai_hp",
+    "patterns": [
+      "Bisa gadai HP?",
+      "Gadai handphone",
+      "Gadai laptop bisa?",
+      "Gadai elektronik"
+    ],
+    "responses": [
+      "Tergantung kebijakan cabang/produk yang tersedia. Silakan tanyakan ke cabang terdekat untuk layanan gadai elektronik."
+    ]
+  },
+  {
+    "tag": "gadai_bpkb",
+    "patterns": [
+      "Gadai BPKB motor",
+      "Gadai BPKB mobil",
+      "BPKB bisa digadaikan?",
+      "Pinjaman jaminan BPKB"
+    ],
+    "responses": [
+      "Beberapa produk pembiayaan dapat menerima jaminan BPKB sesuai ketentuan. Silakan cek produk yang tersedia di cabang Anda."
+    ]
+  },
+  {
+    "tag": "simulasi_pinjaman",
+    "patterns": [
+      "Berapa saya dapat pinjaman?",
+      "Simulasi pinjaman gadai",
+      "Taksiran nilai pinjaman",
+      "Perkiraan dana yang cair"
+    ],
+    "responses": [
+      "Nilai pinjaman ditentukan dari hasil taksiran barang jaminan dan ketentuan produk. Anda dapat datang ke cabang untuk ditaksir."
+    ]
+  },
+  {
+    "tag": "biaya_admin",
+    "patterns": [
+      "Ada biaya admin?",
+      "Biaya administrasi gadai",
+      "Biaya layanan Pegadaian",
+      "Tarif gadai berapa"
+    ],
+    "responses": [
+      "Biasanya ada biaya administrasi dan/atau sewa modal sesuai produk & nilai pinjaman. Detailnya akan dijelaskan saat transaksi."
+    ]
+  },
+  {
+    "tag": "bunga_sewa_modal",
+    "patterns": [
+      "Bunga gadai berapa?",
+      "Sewa modal itu apa?",
+      "Tarif sewa modal",
+      "Biaya bunga pinjaman"
+    ],
+    "responses": [
+      "Pada Pegadaian, biaya pinjaman umumnya disebut sewa modal dan besarnya tergantung produk, nilai pinjaman, dan tenor."
+    ]
+  },
+  {
+    "tag": "jatuh_tempo",
+    "patterns": [
+      "Jatuh tempo gadai kapan?",
+      "Berapa lama masa gadai?",
+      "Tenor gadai",
+      "Batas waktu pelunasan"
+    ],
+    "responses": [
+      "Masa gadai/tenor tergantung produk. Informasi jatuh tempo tercantum di surat bukti gadai/kontrak Anda."
+    ]
+  },
+  {
+    "tag": "perpanjang_gadai",
+    "patterns": [
+      "Bisa perpanjang gadai?",
+      "Perpanjangan gadai",
+      "Cara memperpanjang jatuh tempo",
+      "Gadai mau diperpanjang"
+    ],
+    "responses": [
+      "Bisa, selama memenuhi ketentuan. Anda umumnya perlu membayar sewa modal yang berjalan untuk melakukan perpanjangan."
+    ]
+  },
+  {
+    "tag": "tebus_barang",
+    "patterns": [
+      "Cara menebus barang",
+      "Pelunasan gadai",
+      "Tebus emas saya",
+      "Ambil kembali barang jaminan"
+    ],
+    "responses": [
+      "Untuk menebus barang, lakukan pelunasan sesuai tagihan (pokok + biaya) di cabang tempat transaksi atau sesuai kanal pembayaran yang tersedia."
+    ]
+  },
+  {
+    "tag": "cicilan_emas",
+    "patterns": [
+      "Bisa cicil emas?",
+      "Tabungan emas bagaimana?",
+      "Beli emas dicicil",
+      "Cara menabung emas"
+    ],
+    "responses": [
+      "Pegadaian memiliki produk Tabungan Emas dan/atau cicilan emas (tergantung program). Anda bisa daftar melalui aplikasi atau cabang."
+    ]
+  },
+  {
+    "tag": "tabungan_emas_cetak",
+    "patterns": [
+      "Bisa cetak emas fisik?",
+      "Cetak Tabungan Emas",
+      "Ambil emas batangan dari tabungan",
+      "Konversi tabungan emas"
+    ],
+    "responses": [
+      "Bisa, Anda dapat mencetak emas fisik dari saldo Tabungan Emas sesuai ketentuan (minimal saldo/biaya cetak)."
+    ]
+  },
+  {
+    "tag": "pembayaran_online",
+    "patterns": [
+      "Bisa bayar lewat aplikasi?",
+      "Bayar cicilan online",
+      "Pembayaran gadai via transfer",
+      "Bayar tanpa ke cabang"
+    ],
+    "responses": [
+      "Tersedia opsi pembayaran non-tunai pada layanan tertentu. Silakan cek aplikasi Pegadaian Digital atau kanal pembayaran yang didukung."
+    ]
+  },
+  {
+    "tag": "cek_transaksi",
+    "patterns": [
+      "Cara cek transaksi",
+      "Cek status gadai",
+      "Lihat riwayat transaksi",
+      "Cek saldo tabungan emas"
+    ],
+    "responses": [
+      "Anda dapat mengecek status/riwayat transaksi melalui aplikasi Pegadaian Digital (jika transaksi terdaftar) atau menanyakan ke cabang."
+    ]
+  },
+  {
+    "tag": "keluhan",
+    "patterns": [
+      "Saya mau komplain",
+      "Keluhan layanan",
+      "Customer service Pegadaian",
+      "Laporkan masalah"
+    ],
+    "responses": [
+      "Mohon maaf atas kendalanya. Anda dapat menghubungi layanan pelanggan Pegadaian atau mendatangi cabang untuk bantuan lebih lanjut."
+    ]
+  },
+  {
+    "tag": "keamanan_data",
+    "patterns": [
+      "Apakah data saya aman?",
+      "Keamanan data pelanggan",
+      "Privasi di Pegadaian",
+      "Data KTP disimpan?"
+    ],
+    "responses": [
+      "Pegadaian menerapkan kebijakan perlindungan data sesuai ketentuan. Pastikan Anda hanya memberikan data pada kanal resmi."
+    ]
+  },
+  {
+    "tag": "terima_kasih",
+    "patterns": [
+      "Terima kasih",
+      "Makasih",
+      "Oke terima kasih",
+      "Sip, terima kasih ya"
+    ],
+    "responses": [
+      "Sama-sama! Jika ada pertanyaan lain seputar layanan Pegadaian, silakan tanya lagi."
+    ]
+  }
+]

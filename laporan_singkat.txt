@@ -1,0 +1,30 @@
+LAPORAN SINGKAT UAS — DATA MINING / NLP
+
+Nama   : (ISI NAMA ANDA)
+Kelas  : (ISI KELAS ANDA)
+Reguler: (ISI REGULER)
+Judul  : Chatbot Layanan Pegadaian (TF-IDF + Naive Bayes)
+
+1) Deskripsi
+Chatbot dibuat untuk menjawab pertanyaan umum pelanggan terkait layanan Pegadaian (gadai, tabungan emas, pembayaran, keluhan).
+
+2) Dataset
+Dataset berupa 20 intent (tag), masing-masing memiliki beberapa contoh pertanyaan (patterns) dan jawaban (responses) dalam format JSON.
+
+3) Preprocessing
+- Case folding (lowercase)
+- Menghapus tanda baca/karakter non-alfanumerik
+- Normalisasi spasi
+
+4) Algoritma (Supervised Learning)
+- Representasi teks: TF-IDF (ngram 1–2)
+- Klasifikasi intent: Multinomial Naive Bayes
+
+5) Evaluasi
+Evaluasi menggunakan hold-out split (25% data uji) dengan metrik akurasi.
+Hasil akurasi akan tampil saat program dijalankan.
+
+6) Kesimpulan
+Model TF-IDF + Naive Bayes dapat mengenali intent meskipun kalimat input tidak persis sama dengan data latih, selama masih mirip (kemiripan kata/phrase).
+
+Tanda tangan: ________________________
