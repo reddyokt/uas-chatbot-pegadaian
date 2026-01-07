@@ -22,13 +22,15 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 DATASET_PATH = BASE_DIR / "dataset" / "pegadaian_dataset.json"
 CONFIDENCE_THRESHOLD = 0.35
 
+from nltk.tokenize import TreebankWordTokenizer
+
+tokenizer = TreebankWordTokenizer()
 
 def preprocess(text: str) -> str:
-    text = text.lower()
-    text = re.sub(r"[^a-z0-9\s]", " ", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
-
+    text = text.lower()                      # case folding
+    text = re.sub(r"[^a-z0-9\s]", " ", text) # hapus tanda baca
+    tokens = tokenizer.tokenize(text)        # tokenizing pakai NLTK
+    return " ".join(tokens)
 
 def load_dataset(path: Path):
     data = json.loads(path.read_text(encoding="utf-8"))
